@@ -76,11 +76,9 @@ def solution(in_string):
     pattern_string = find_pattern_num()
 
     if (len(pattern_string) == 0) or (len(pattern_string) > len(sequence_string)):
-        answer = len(sequence_string)
+        return len(sequence_string)
     else:
-        answer = len(pattern_string)
-        
-    return answer
+        return len(pattern_string)
 
 if __name__ == "__main__":
     s = "ababab"
