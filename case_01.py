@@ -1,3 +1,11 @@
+"""
+    문자열 압축.
+    입력받은 문자열에 대하여 압축해서 가장 적은 사이즈 계산
+    예) s = "ababab"
+        전체: 6. 압축 후 3(3ab)
+
+"""
+
 def solution(in_string):
     
     # 문자열을 하나의 문자 리스트로 생성
@@ -75,5 +83,5 @@ def solution(in_string):
     return answer
 
 if __name__ == "__main__":
-    s = "ajshdfyhfuidnjdcjfjkdhsklalejejkajshdfyhfuidnjdcjfjkdhsklalejejk"
+    s = "ababab"
     print(solution(s))    
